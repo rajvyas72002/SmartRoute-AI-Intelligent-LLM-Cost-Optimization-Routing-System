@@ -1,0 +1,4 @@
+expected_output_tokens: {simple: 150, moderate: 400, complex: 800}
+required_capability:    {simple: 1,   moderate: 2,   complex: 3}
+balanced_weights: {quality: 0.5, cost: 0.25, latency: 0.25}
+complexity_thresholds: {simple_max: 1, moderate_max: 3}   # score <= simple_max -> simple
